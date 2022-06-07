@@ -1,0 +1,19 @@
+{
+  "name": "data-api",
+  "version": "1.0.0",
+  "description": "data api for building the dashboard",
+  "main": "public/server.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "b1z3rr4",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.14.11"
+  }
+}
