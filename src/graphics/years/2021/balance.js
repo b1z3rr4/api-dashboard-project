@@ -12,7 +12,7 @@ const totalDataPurchases = dataPurchases2021.map((item)=>{
 
 const totalPurchases = totalDataPurchases.reduce((previousValue, currentValue) => previousValue + currentValue).toFixed(2);
 
-const balance2021 =  (totalPurchases - totalSales).toFixed(2);
+const balance2021 =  (totalSales - totalPurchases).toFixed(2);
 
 module.exports = {
     balance2021
